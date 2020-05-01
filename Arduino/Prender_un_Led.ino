@@ -10,7 +10,6 @@ void setup()
   pwm.setPWMFreq(60);  //~60 Hz
 }
 
-
 void loop()
 {
   int pin = 0;
