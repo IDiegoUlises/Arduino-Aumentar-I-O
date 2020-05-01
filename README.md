@@ -1,6 +1,7 @@
 # Arduino Expansion de señales PWM
 
 * Es el modulo PCA9865 que permite crear 16 señales PWM
+* La corriente maxima por pin es de 25 mA
 
 ## Primera prueba
 ```c++
