@@ -5,7 +5,7 @@
 * Este modulo PCA9865 que permite crear 16 señales PWM
 * La corriente maxima por pin es de 25 mA
 
-## Primera prueba
+## Codigo
 ```c++
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
@@ -25,5 +25,9 @@ void loop()
   int pin = 0;
   pwm.setPWM(pin, 4096, 0); //HIGH 5v
 }
-
 ```
+## Conexion
+
+<img src="https://github.com/IDiegoUlises/Arduino-Expansion-De-PWM/blob/master/Images/Conexion.png"  >
+
+
