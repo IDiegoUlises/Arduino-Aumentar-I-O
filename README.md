@@ -8,7 +8,7 @@
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
-//it uses the default address 0x40
+//usa por defecto la direccion 0x40, esto es por si conectamos mas de estos modulos al mismo tiempo
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 void setup()
