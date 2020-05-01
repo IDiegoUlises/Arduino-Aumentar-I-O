@@ -14,7 +14,6 @@ void setup()
 
 void loop()
 {
-
   pwm.setPWM(pin,4096, 0); //encender el led
   delay(1000); //espera 1 segundo 
   pwm.setPWM(pin,0, 0); //apagar el led 
