@@ -30,4 +30,5 @@ void loop()
 
 <img src="https://github.com/IDiegoUlises/Arduino-Expansion-De-PWM/blob/master/Images/Conexion.png"  >
 
+<img src="https://github.com/IDiegoUlises/Arduino-Expansion-De-PWM/blob/master/Images/Conexion-Del-Modulo-PCA9685.png"  >
 
