@@ -14,8 +14,6 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 void setup() {
   pwm.begin();
   pwm.setPWMFreq(60);  // ~60 Hz updates
-
-
 }
 
 
