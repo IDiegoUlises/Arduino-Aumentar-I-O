@@ -25,7 +25,7 @@ void setup() {
 
 void loop() {
   int numero = 0;
-  pwm.setPWM(numero,0,4096); //Numero del pin del modulo, valor del flanco de subida y bajada??, cantidad de energia??
+  pwm.setPWM(numero,4096,0); //Numero del pin del modulo, valor del flanco de subida y bajada??, cantidad de energia??
 }
 
 
