@@ -28,7 +28,7 @@ void loop()
 ```
 
 ## Codigo encontrado en internet
-``c++
+```c++
 #include <I2C.h> // might not be needed with newer version
 #include <PCA9685.h> // 2012 version
 PCA9685 board_0(0x5F); // I named the first board board_0 | I2C address is in the brackets
