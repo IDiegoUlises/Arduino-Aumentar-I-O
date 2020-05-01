@@ -1,3 +1,31 @@
-# Aumentar los puertos en Arduino
+# Arduino Expansion de señales PWM
 
-Un modulo barato aumenta el cantidad de puertos digitales y analogicos del arduino
+* Es el modulo PCA9865 que permite crear 16 señales PWM
+
+## Primera prueba
+```c++
+#include <Wire.h>
+#include <Adafruit_PWMServoDriver.h>
+
+// called this way, it uses the default address 0x40
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+
+uint8_t servonum = 0;
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("16 channel pwm!");
+
+  pwm.begin();
+
+  pwm.setPWMFreq(60);  // ~60 Hz updates
+}
+
+
+void loop() {
+  numero = 0;
+  pwm.setPWM(numero,0,4096); //Numero del pin del modulo, valor del flanco de subida y bajada??, cantidad de energia??
+}
+
+
+```
