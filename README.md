@@ -11,16 +11,18 @@
 // called this way, it uses the default address 0x40
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
-void setup() {
+void setup()
+{
   pwm.begin();
-  pwm.setPWMFreq(60);  // ~60 Hz updates
+  pwm.setPWMFreq(60);  //~60 Hz updates
 }
 
 
-void loop() {
-
+void loop()
+{
   int pin = 0;
-  pwm.setPWM(pin, 4096, 0);
+  pwm.setPWM(pin, 4096, 0); //HIGH 5v
 }
+
 
 ```
